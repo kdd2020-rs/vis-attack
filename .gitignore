@@ -1,0 +1,37 @@
+*~
+*#*
+
+#vscode
+.vscode
+
+#compiled python
+*.pyc
+
+# cache files
+*.cache
+.pytest_cache
+**/.ipynb_checkpoints/*
+
+#logs
+lightning_logs/*
+exp*/*
+
+# packaging
+*egg*
+*build*
+
+# OS
+.DS_Store
+
+# IDE
+tags
+
+# data
+*.pth
+*.pkl
+*.zip
+
+# Byte-compiled / optimized / DLL files
+__pycache__/
+*.py[cod]
+*$py.class
